@@ -49,6 +49,7 @@ export default function Home() {
       >
         <Image
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google logo"
           width={272}
           height={92}
         />
