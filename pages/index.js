@@ -58,10 +58,8 @@ export default function Home() {
             className="flex-grow focus:outline-none"
             ref={searchInputRef}
             id="searchInputRef"
+            aria-label="search input"
           />
-          <label htmlFor="searchInputRef" className="invisible">
-            Search input
-          </label>
           <MicrophoneIcon className="h-5 text-gray-500" />
         </div>
 
