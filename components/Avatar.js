@@ -8,7 +8,7 @@ const Avatar = ({ url, className }) => {
       alt="profile pic"
       width="460px"
       height="460px"
-      className={`rounded-full h-10 cursor-pointer transition duration-150 transform hover:scale-150 ${className}`}
+      className={`rounded-full w-10 h-10 cursor-pointer transition duration-150 transform hover:scale-150 ${className}`}
     />
   );
 };
