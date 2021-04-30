@@ -57,7 +57,11 @@ export default function Home() {
             type="text"
             className="flex-grow focus:outline-none"
             ref={searchInputRef}
+            id="searchInput"
           />
+          <label htmlFor="searchInput" className="hidden">
+            Search input
+          </label>
           <MicrophoneIcon className="h-5 text-gray-500" />
         </div>
 
